@@ -1,0 +1,25 @@
+real prev1
+real prev2
+real not3
+real evfin
+real def
+cadena [25] asig
+inicio
+
+Escriba "Escriba el nombre de la asignatura: "
+lea asig
+Escriba "Escriba la nota del primer previo: "
+lea prev1
+Escriba "Escriba la nota del segundo previo: "
+lea prev2
+Escriba "Escriba la nota de la tercera nota: "
+lea not3
+Escriba "Escriba la nota de la evaluacion final:  "
+lea evfin
+
+
+
+def <- (prev1*0.25)+(prev2*0.25)+(not3*0.20)+(evfin*0.30)
+escriba "La definitiva final de la asignatura ", asig, " es: ", def
+
+fin

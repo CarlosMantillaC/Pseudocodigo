@@ -1,0 +1,59 @@
+cadena [25] temp
+real numtemp
+real cels
+real fahren
+real kelvin
+
+inicio
+
+escriba "Ingrese la unidad de medidad: "
+lea temp
+escriba "Ingrese un valor de tempertatura: "
+lea numtemp
+
+
+si temp = "celsius" entonces
+
+cels <- numtemp
+fahren <- (numtemp * 9/5) + 32
+kelvin <- numtemp + 273.15
+
+escriba "La converision de grados celsius a celsius es: ", cels
+llamar nueva_linea
+escriba "La converision de grados celsius a fahrenheit es: ", fahren
+llamar nueva_linea
+escriba "La converision de grados celsius a fahrenheit es: ", kelvin
+llamar nueva_linea
+fin si
+
+
+si temp = "fahrenheit" entonces
+
+cels <- (numtemp - 32) * 5/9
+fahren <- numtemp
+kelvin <- (numtemp - 32) * 5/9 + 273.15
+
+escriba "La converision de grados fahrenheit a celsius es: ", cels
+llamar nueva_linea
+escriba "La converision de grados fahrenheit a fahrenheit es: ", fahren
+llamar nueva_linea
+escriba "La converision de grados fahrenheit a kelvin es: ", kelvin
+llamar nueva_linea
+fin si
+
+
+si temp = "kelvin" entonces
+
+cels <- numtemp - 273.15
+fahren <- (numtemp - 273.15) * 9/5 + 32
+kelvin <- numtemp
+
+escriba "La converision de grados kelvin a celsius es: ", cels
+llamar nueva_linea
+escriba "La converision de grados kelvin a fahrenheit es: ", fahren
+llamar nueva_linea
+escriba "La converision de grados kelvin a kelvin es: ", kelvin
+llamar nueva_linea
+fin si
+
+fin

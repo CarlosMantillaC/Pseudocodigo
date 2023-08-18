@@ -1,0 +1,17 @@
+real libras
+real kilos
+real gramos
+
+inicio 
+
+escriba "Ingrese las libras que desees: "
+lea libras
+
+kilos <- libras / 2.205
+gramos <- libras * 453.6
+
+escriba "La conversion a kilogramos es: ", kilos
+llamar nueva_linea
+escriba "La conversion a gramos es: ", gramos
+
+fin

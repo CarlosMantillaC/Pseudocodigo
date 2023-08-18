@@ -1,0 +1,6 @@
+cadena [25] frase
+
+inicio
+frase <- "Hola Mundo"
+escriba frase
+fin

@@ -1,0 +1,17 @@
+entero num
+entero numlim
+inicio
+
+num <- 0
+escriba "Ingrese el numero maximo para el listado: "
+lea numlim
+
+Repita 
+
+num <- num+1
+escriba num
+llamar nueva_linea
+
+Hasta num = numlim
+
+fin

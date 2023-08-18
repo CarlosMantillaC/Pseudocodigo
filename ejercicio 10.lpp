@@ -1,0 +1,29 @@
+arreglo [50] de real notas
+entero numnotas
+entero I
+real suma
+real promedio
+real nota3
+inicio
+
+escriba "Ingrese el numero de notas a ingresar: "
+lea numnotas
+
+llamar nueva_linea
+
+para I <- 1 hasta numnotas haga
+
+escriba "cuanto es el valor de la nota numero ", I, ": "
+
+lea notas[I]
+suma <- suma + notas[I]
+
+fin para
+
+promedio <- suma / numnotas
+nota3 <- promedio * 0.20
+
+llamar nueva_linea
+escriba "El promedio es: ", promedio, " con una equivalencia de porcentaje de tercera nota en la FESC de: ", nota3
+
+fin

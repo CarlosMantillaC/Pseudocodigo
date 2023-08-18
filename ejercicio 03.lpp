@@ -1,0 +1,11 @@
+entero num1
+entero num2
+
+inicio
+escriba "Ingrese el primer numero: "
+lea num1
+escriba "Ingrese el segundo numero: "
+lea num2
+
+escriba "El resultado es: ", num1 + num2
+fin

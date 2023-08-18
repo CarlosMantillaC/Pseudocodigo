@@ -1,0 +1,15 @@
+entero num
+
+inicio
+
+num <- 0
+
+Repita 
+
+num <- num+1
+escriba num
+llamar nueva_linea
+
+Hasta num = 100
+
+fin
